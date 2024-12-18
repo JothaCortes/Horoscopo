@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>HoroscopoEv</display-name>
+
+<welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  
+
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>IniciarSesionServlet</display-name>
+    <servlet-name>IniciarSesionServlet</servlet-name>
+    <servlet-class>com.edutecno.servlets.IniciarSesionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IniciarSesionServlet</servlet-name>
+    <url-pattern>/IniciarSesionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>IniciarSesion</display-name>
+    <servlet-name>IniciarSesion</servlet-name>
+    <servlet-class>com.edutecno.servlets.IniciarSesion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IniciarSesion</servlet-name>
+    <url-pattern>/IniciarSesion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>IniciarSesionSvt</display-name>
+    <servlet-name>IniciarSesionSvt</servlet-name>
+    <servlet-class>com.edutecno.servlet.IniciarSesionSvt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IniciarSesionSvt</servlet-name>
+    <url-pattern>/IniciarSesionSvt</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CrearUsuarioSvt</display-name>
+    <servlet-name>CrearUsuarioSvt</servlet-name>
+    <servlet-class>com.edutecno.servlet.CrearUsuarioSvt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrearUsuarioSvt</servlet-name>
+    <url-pattern>/CrearUsuarioSvt</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EliminarUsuarioSvt</display-name>
+    <servlet-name>EliminarUsuarioSvt</servlet-name>
+    <servlet-class>com.edutecno.servlet.EliminarUsuarioSvt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarUsuarioSvt</servlet-name>
+    <url-pattern>/EliminarUsuarioSvt</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CerrarSesion</display-name>
+    <servlet-name>CerrarSesion</servlet-name>
+    <servlet-class>com.edutecno.servlet.CerrarSesion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CerrarSesion</servlet-name>
+    <url-pattern>/CerrarSesion</url-pattern>
+  </servlet-mapping>
+</web-app>
